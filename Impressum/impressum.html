@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="impressum.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.css" />
+    <title>Tontechnik Eberle Impressum</title>
+</head>
+<body>
+  
+<nav class="navbar">
+    <div class="logo"><a href="/index.html"><img class="w-full w-max-[60px]" src="/Logos/JPEG _1.2.jpg" alt="LOGO"></a></div>
+    <div class="push-left">
+        <button id="menu-toggler" data-class="menu-active" class="hamburger">
+        <span class="hamburger-line hamburger-line-top"></span>
+        <span class="hamburger-line hamburger-line-middle"></span>
+        <span class="hamburger-line hamburger-line-bottom"></span>
+        </button>
+        <ul id="primary-menu" class="menu nav-menu z-50">
+        <img id="LogoTontechnikWhite" class="w-max-[70px] w-full hidden" src="/Logos/JPEG _1.jpg"  alt="Logo Tontechnik Eberle">
+        <li class="menu-item current-menu-item"><a class="nav__link"  href="/index.html#über-mich">Über mich</a></li>
+        <li class="menu-item dropdown"><a class="nav__link"  href="/index.html#services">Services</a>
+            <!--
+            <ul class="sub-nav" >
+            <li><a class="sub-nav__link" href="#">link 1</a></li>
+            <li><a class="sub-nav__link" href="#">link 2</a></li>
+            <li><a class="sub-nav__link" href="#">link 3 - long link - long link - long link</a></li>
+            </ul>
+            -->
+        </li>
+        <li class="menu-item dropdown"><a class="nav__link"  href="#kontakt">Kontakt</a>
+        </li>
+        </ul>
+    </div>
+</nav>
+<!--Impressum-->
+<section id="impressum" class="text-[#DAA520] text-center mt-[5%] px-[2%]">
+    <div>
+        <h1 class="text-2xl md:text-6xl font-semibold">Impressum</h1><br>
+        <p class="font-bold text-xl text-white">Thomas Eberle, Tontechnik Eberle</p>
+        <p class="font-semibold text-xl text-[#acacac]">380 St Kilda Road</p>
+        <p class="font-semibold text-xl text-[#acacac]">Melbourne VIC 3004</p>
+        <p class="font-semibold text-xl text-[#acacac]">Australia</p><br>
+        <p class="font-bold text-xl text-white ">vertreten durch den Gesellschaftler Thomas Eberle</p><br>
+        <p class="font-bold text-xl text-white">Kontakt</p>
+        <p class="font-semibold text-xl text-[#acacac]">Telefon:<a href="#">+1 8408 412 569</a></p>
+        <p class="font-semibold text-xl text-[#acacac]">E-Mail: <a class="hover:underline hover:text-[#DAA520]" href="mailto:webmaster@example.com">info@tontechnik-eberle.de</a></p>
+        <p class="font-semibold text-xl text-[#acacac]">Internet: <a class="hover:text-[#DAA520]"href="https://www.tontechnik-eberle.de/">www.tontechnik-eberle.de</a></p><br>
+    </div>
+</section>
+
+<footer>
+  <div class="grid grid-rows-1 md:grid-cols-2 md:gap-5 md:mx-auto mt-[5%] md:py-[15px] bg-white">
+    <div class="md:flex">
+      <img class="w-full max-w-[250px] mx-auto" src="/Logos/JPEG _3.jpg" alt="FOOTER LOGO">
+      <h1 class="mt-[30px] text-lg font-semibold text-center w-full md:text-left">@2022 Tontechnik Eberle</h1>
+    </div>
+    <div class="flex gap-4 justify-center md:justify-center">
+      <h1 class="mt-[30px] text-lg font-semibold"><a class="hover:underline" href="#impressum">Impressum</a></h1>
+      <h1 class="mt-[30px] text-lg font-semibold"><a class="hover:underline" href="/index.html#kontakt">Kontakt</a></h1>
+    </div>
+    
+  </div>
+</footer>
+      <script src="impressum.js"></script>
+      <script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script>
+</body>
+</html>
